@@ -46,8 +46,8 @@ The internship emphasized building interactive and visually appealing frontend a
 
 ## 🔗 Connect with Me
 
-* LinkedIn: (your link)
-* GitHub: (your link)
+* LinkedIn: https://www.linkedin.com/in/arpit-patni-4251282a4/
+* GitHub: https://github.com/arpitpaatni2007-jpg
 
 ---
 
