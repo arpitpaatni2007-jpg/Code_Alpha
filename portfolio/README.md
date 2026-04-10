@@ -26,7 +26,7 @@ JavaScript (Vanilla JS) – Interactivity
 📬 Contact
 ⚙️ Installation & Setup
 # Clone the repository
-git clone https://github.com/arpitpaatni2007-jpg/portfolio_website
+git clone https://github.com/arpitpaatni2007-jpg/Code_Alpha/tree/main/portfolio
 
 # Navigate into the folder
 cd https://github.com/arpitpaatni2007-jpg/portfolio_website
