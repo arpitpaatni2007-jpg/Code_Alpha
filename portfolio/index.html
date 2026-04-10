@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title> 
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+     
+      <span>AP</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+  </nav>
+
+  
+  <section class="hero" id="hero">
+  <div class="hero-content">
+    <p class="hero-greeting">Hi there, I'm</p>
+    <h1 class="hero-name">Arpit Patni</h1>
+
+    <div class="hero-title">
+      <span>I'm a </span>
+      <span class="typed-text" id="typedText"></span>
+      <span class="cursor">|</span>
+    </div>
+
+    <p class="hero-intro">
+      A passionate computer science student who loves building things for
+      the web and solving real-world problems with code.
+    </p>
+
+    <div class="hero-btns">
+      <a href="#contact" class="btn btn-primary">Contact Me</a>
+      <a href="#projects" class="btn btn-outline">View Projects</a>
+      <a href="assets/Arpit_Patni_Resume.pdf" target="_blank" class="btn btn-outline">
+    📄View Resume
+</a>
+    </div>
+  </div>
+
+  
+  <div class="hero-right">
+    <h2 class="hero-tech">  HTML • CSS • JS</h2>
+  </div>
+
+  <div class="hero-blob"></div>
+</section>
+
+
+  <section class="about section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-img-wrapper">
+          
+            <img src="my image.png" alt="Arpit Patni" class="about-img" />
+          </div>
+          
+         
+       <p>
+I'm currently a first-year Computer Science student with a growing interest in frontend development and UI design. I enjoy creating simple, clean, and user-friendly web experiences.
+
+I like working on projects that help me improve my skills and understand how real-world applications are built. At the moment, I’m focusing on strengthening my JavaScript and exploring React.
+
+Apart from coding, I spend time in the gym and playing sports, which keeps me active and disciplined. I'm always trying to learn new things and improve step by step.
+</p>
+          <div class="about-tags">
+            <span class="tag">🎓 B.Tech CSE</span>
+            <span class="tag">📍 India</span>
+            <span class="tag">💼 Open to Internships</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="skills section" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+
+       
+        <div class="skill-card fade-in">
+          <div class="skill-icon">🌐</div>
+          <h3>HTML</h3>
+          <div class="progress-bar">
+            <div class="progress" style="--pct: 90%"></div>
+          </div>
+          <span class="pct-label">90%</span>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-icon">🎨</div>
+          <h3>CSS</h3>
+          <div class="progress-bar">
+            <div class="progress" style="--pct: 80%"></div>
+          </div>
+          <span class="pct-label">80%</span>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-icon">⚡</div>
+          <h3>JavaScript</h3>
+          <div class="progress-bar">
+            <div class="progress" style="--pct: 70%"></div>
+          </div>
+          <span class="pct-label">70%</span>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-icon">🐍</div>
+          <h3>Python</h3>
+          <div class="progress-bar">
+            <div class="progress" style="--pct: 65%"></div>
+          </div>
+          <span class="pct-label">65%</span>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-icon">⚛️</div>
+          <h3>React</h3>
+          <div class="progress-bar">
+            <div class="progress" style="--pct: 55%"></div>
+          </div>
+          <span class="pct-label">55%</span>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-icon">🐙</div>
+          <h3>Git & GitHub</h3>
+          <div class="progress-bar">
+            <div class="progress" style="--pct: 75%"></div>
+          </div>
+          <span class="pct-label">75%</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+    <section class="projects section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+
+
+          <div class="project-card fade-in">
+    
+            <div
+              class="project-img"
+              style="background: linear-gradient(135deg, #1a1a2e, #16213e)"
+            >
+              <span class="project-img-label">📝 Smart Event Manager App</span>
+            </div>
+            <div class="project-info">
+              <h3>Smart Event Manager App</h3>
+              <p>
+                A smart event manager app with features like event scheduling,
+                reminders, and user collaboration. Built with modern JS
+                frameworks.
+              </p>
+              <div class="project-links">
+          
+                <a
+                  href="https://github.com/arpitpaatni2007-jpg/Smart-event-plannner"
+                  class="proj-btn"
+                  target="_blank"
+                  >GitHub</a
+                >
+              
+                <a
+                  href="https://smart-event-plannner.vercel.app/"
+                  class="proj-btn proj-btn-live"
+                  target="_blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card fade-in">
+            <div
+              class="project-img"
+              style="background: linear-gradient(135deg, #0f3460, #533483)"
+            >
+              <span class="project-img-label">🌦️ Weather App</span>
+            </div>
+            <div class="project-info">
+              <h3>Weather Dashboard</h3>
+              <p>
+                Fetches real-time weather using OpenWeatherMap API. Shows
+                temperature, humidity, and forecasts.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/arpitpaatni2007-jpg/Weather_App"
+                  class="proj-btn"
+                  target="_blank"
+                  >GitHub</a
+                >
+                <a
+                  href="https://weatherapp-red-theta.vercel.app"
+                  class="proj-btn proj-btn-live"
+                  target="_blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card fade-in">
+            <div
+              class="project-img"
+              style="background: linear-gradient(135deg, #1b4332, #081c15)"
+            >
+              <span class="project-img-label">🛒 Store UI</span>
+            </div>
+            <div class="project-info">
+              <h3>Shopping Site UI</h3>
+              <p>
+                A responsive product listing page with cart functionality and
+                filter options using HTML, CSS, JS.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/arpitpaatni2007-jpg/KRMU-Web-Dev-1/tree/main/Capstone%20Project"
+                  class="proj-btn"
+                  target="_blank"
+                  >GitHub</a
+                >
+                <a
+                  href="https://web-dev-gamma-blond.vercel.app/"
+                  class="proj-btn proj-btn-live"
+                  target="_blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card fade-in">
+            <div
+              class="project-img"
+              style="background: linear-gradient(135deg, #4a1942, #c77dff20)"
+            >
+              <span class="project-img-label">🐉 I-Dragon Game</span>
+            </div>
+            <div class="project-info">
+              <h3>I-Dragon Game</h3>
+              <p>
+                A fun and interactive dragon-themed game built with HTML, CSS,
+                and JavaScript.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/arpitpaatni2007-jpg/Dragon-Game"
+                  class="proj-btn"
+                  target="_blank"
+                  >GitHub</a
+                >
+                <a
+                  href="https://i-dragon-game-omega.vercel.app/"
+                  class="proj-btn proj-btn-live"
+                  target="_blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card fade-in">
+            <div
+              class="project-img"
+              style="background: linear-gradient(135deg, #232526, #414345)"
+            >
+              <span class="project-img-label"> ⭕️❌ Tic Tac Toe</span>
+            </div>
+            <div class="project-info">
+              <h3>Tic Tac Toe</h3>
+              <p>
+                A fun and interactive Tic Tac Toe game built with HTML, CSS, and
+                JavaScript.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/arpitpaatni2007-jpg/tic-tac-toe"
+                  class="proj-btn"
+                  target="_blank"
+                  >GitHub</a
+                >
+                <a
+                  href="https://tic-tac-6cagtfrbr-arpitpaatni2007-2814s-projects.vercel.app/"
+                  class="proj-btn proj-btn-live"
+                  target="_blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="project-card fade-in">
+            <div
+              class="project-img"
+              style="background: linear-gradient(135deg, #134e5e, #71b280)"
+            >
+              <span>🎓 Alumni Connect</span>
+            </div>
+            <div class="project-info">
+              <h3>Alumni Connect Hub</h3>
+              <p>
+                A web platform that connects students with alumni for
+                mentorship, guidance, and networking. Built as a team project
+                focusing on user-friendly UI and real-world interaction.
+              </p>
+              <div class="project-links">
+             
+                <a
+                  href="https://github.com/arpitpaatni2007-jpg/alumni-connect-hub"
+                  class="proj-btn"
+                  target="_blank"
+                  >GitHub</a
+                >
+
+           
+                <a
+                  href="https://alumni-connect-portal-minor-project.vercel.app/"
+                  class="proj-btn proj-btn-live"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+  
+          <div class="project-card fade-in">
+            <div
+              class="project-img"
+              style="background: linear-gradient(135deg, #1e3c72, #2a5298)"
+            >
+              <span>🏃 Athlete Hub</span>
+            </div>
+            <div class="project-info">
+              <h3>Athlete Hub</h3>
+              <p>
+                A platform designed for athletes to track performance, explore
+                opportunities, and connect with sports communities. Built
+                collaboratively as a team project.
+              </p>
+              <div class="project-links">
+         
+                <a
+                  href="https://github.com/srimehul18/FItness-V-1.0"
+                  class="proj-btn"
+                  target="_blank"
+                  >GitHub</a
+                >
+
+
+                <a
+                  href="https://f-itness-v-1-0.vercel.app/"
+                  class="proj-btn proj-btn-live"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education section" id="education">
+      <div class="container">
+        <h2 class="section-title">Education & Experience</h2>
+
+        <div class="timeline">
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2025 – Present</span>
+              <h3>B.Tech in Computer Science (AI-ML)</h3>
+              <p>K.R Mangalam University, Gurugram, India<br>
+                Currently in 2nd sem. SEM-1 S.G.P.A-8.8
+              </p>
+              <span class="timeline-tag">Education</span>
+            </div>
+          </div>
+
+     
+          <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024 – 2025</span>
+              <h3>Higher Secondary (12th)</h3>
+              <p>Completed 12th with PCM + Computer Science. Score - 82%</p>
+              <span class="timeline-tag">Education</span>
+            </div>
+          </div>
+
+      
+          <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2022 – 2023</span>
+              <h3>Secondary School (10th)</h3>
+              <p>
+                Completed 10th with strong academic performance. Score - 87%
+              </p>
+              <span class="timeline-tag">Education</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="contact section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p>
+              Feel free to reach out for collaborations, internships, or just a
+              friendly chat about tech!
+            </p>
+            <div class="contact-details">
+
+              <a href="mailto:arpitpaatni2007@gmail.com" class="contact-item">
+                <span class="contact-icon">✉️</span>
+                arpitpaatni2007@gmail.com
+              </a>
+              
+              <a
+                href="https://www.linkedin.com/in/arpit-patni-4251282a4/"
+                target="_blank"
+                class="contact-item"
+              >
+                <span class="contact-icon">💼</span>
+                https://www.linkedin.com/in/arpit-patni-4251282a4/
+              </a>
+           
+              <a
+                href="https://github.com/arpitpaatni2007-jpg"
+                target="_blank"
+                class="contact-item"
+              >
+                <span class="contact-icon">🐙</span>
+                github.com/arpitpaatni2007-jpg
+              </a>
+            </div>
+          </div>
+
+       <form action="https://formspree.io/f/mlgondlj" method="POST" class="contact-form">
+
+  <div class="form-group">
+    <input type="text" name="name" placeholder="Your Name" required />
+  </div>
+
+  <div class="form-group">
+    <input type="email" name="email" placeholder="Your Email" required />
+  </div>
+
+  <div class="form-group">
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Send Message</button>
+   <p class="form-success">✅ Message sent!</p>
+
+</form>
+   
+    <footer class="footer">
+      <div class="footer-socials">
+  
+        <a href="https://github.com/arpitpaatni2007-jpg" target="_blank"
+          >GitHub</a
+        >
+        <a
+          href="https://www.linkedin.com/in/arpit-patni-4251282a4/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://www.instagram.com/arpiit_07/?hl=en" target="_blank"
+          >Instagram</a
+        >
+      </div>
+
+      <p class="footer-copy">
+        © 2026 Arpit Patni. Built with ❤️ using HTML, CSS & JS.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
